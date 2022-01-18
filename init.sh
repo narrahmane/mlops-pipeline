@@ -1,0 +1,13 @@
+#!/bin/sh
+
+# MONGO DB URL
+export EXSCIENTIA_ASSESMENT_DB_URL="127.0.0.1"
+
+# MONGO DB PORT
+export EXSCIENTIA_ASSESMENT_DB_PORT="27017"
+
+# ROOT FOLDER CONTAINING images/ and compounds.json
+export EXSCIENTIA_ASSESMENT_BUCKET_URL="/Users/nacim/Downloads/exscientia_code_challenge"
+
+# FLASK WEB APP PORT
+export EXSCIENTIA_ASSESMENT_WEBAPP_SERVER_PORT="4049"
