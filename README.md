@@ -5,7 +5,8 @@ Machine Learning Ops pipeline
 
 The goal of this small project is to build a Machine Learning Pipeline from data ingestion to model deployment.
 
-**It serves a machine learning model that predicts the compound number of atoms given his molecular weight.**
+**We will serves a machine learning model that predicts the compound number of atoms given his molecular weight.**
+
 
 ### Global architecture
 
@@ -48,6 +49,8 @@ A web app is provided to:
 ## Example - Aspartame 
 
 Aspartame molecular weight: 294,3 g/mol
+
+<img width="235" alt="image" class="center" src="https://user-images.githubusercontent.com/8875161/150159541-1c9233ca-e70a-478d-82ac-75467c18110e.png">
 
 <img width="989" alt="image" src="https://user-images.githubusercontent.com/8875161/150150632-ac0636b9-88dc-405f-92f9-33c8724632c3.png">
 
@@ -121,3 +124,11 @@ Please ensure the following software are already installed on your machine.
 
     mongo exscientia --host $EXSCIENTIA_ASSESMENT_DB_URL --port $EXSCIENTIA_ASSESMENT_DB_PORT --eval "db.dropDatabase()"
     brew services stop mongodb-community
+    
+    
+## Appendix
+
+During Exploratory Data Analysis, we've found a high correlation between compound number of atoms and his molecular weight.
+<img width="359" alt="image" src="https://user-images.githubusercontent.com/8875161/150159794-28e91d4e-64bd-4e5f-a8d1-777de5c085e8.png">
+
+
