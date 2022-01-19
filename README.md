@@ -1,6 +1,3 @@
-# mlops-pipeline
-Machine Learning Ops pipeline 
-
 ## About the projet
 
 The goal of this small project is to build a Machine Learning Pipeline from data ingestion to model deployment.
