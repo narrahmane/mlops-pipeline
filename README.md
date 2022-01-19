@@ -21,6 +21,7 @@ Please ensure the following software are already installed on your machine.
     
     conda create --name <env> --file requirements.txt
     conda activate <env>
+    pip install rdkit-pypi==2021.9.4 
 
 ## Launch Mongo DB server
     
