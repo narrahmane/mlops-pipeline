@@ -36,7 +36,7 @@ The goal of this small project is to build a Machine Learning Pipeline from data
 1. Check if the new experiment is better than the current best model in production. We define better as 'improvements for train, val and test scores'.
 2. If new model is best, deploy it by replacing the current model in `models` collection. Business usecase model are determined with `objectiveId` field in experiment.
 
-### E - API
+### E - Flask API
 A web app is provided to:
   1. Predict atoms number by providing molecular weight
   2. Get best experiment for objectiveID=OBJ-1234 (Our id business usecase)
