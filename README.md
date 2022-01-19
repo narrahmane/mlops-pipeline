@@ -4,7 +4,7 @@ Machine Learning Ops pipeline
 ## About the projet
 
 ## Prerequisites
-Please ensure the following software are already install on your machine.
+Please ensure the following software are already installed on your machine.
 * MongoDB Community Edition 5.0 [link](http://www.google.fr/)
 
 ## Installation
