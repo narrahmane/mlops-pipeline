@@ -5,7 +5,7 @@ Machine Learning Ops pipeline
 
 The goal of this small project is to build a Machine Learning Pipeline from data ingestion to model deployment.
 
-**We will serves a machine learning model that predicts the compound number of atoms given his molecular weight.**
+**We will serve a machine learning model that predicts the compound number of atoms given his molecular weight.**
 
 
 ### Global architecture
