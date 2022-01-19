@@ -36,11 +36,11 @@ Please ensure the following software are already installed on your machine.
 
 ### Ingest and Transform
 
-    python pipeline --steps=INGEST+TRANSFORM
+    python pipeline.py --steps=INGEST+TRANSFORM
 
 ### Train and Deploy
 
-    python pipeline --steps=TRAIN+DEPLOY
+    python pipeline.py --steps=TRAIN+DEPLOY
 
 ### Use endpoints
 
