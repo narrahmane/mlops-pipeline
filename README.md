@@ -24,7 +24,7 @@ The goal of this small project is to build a Machine Learning Pipeline from data
 4. Enrich the compound with it's atoms number `num_atom`. (We are using rdkit chemical python package.)
 5. Push enriched compound to `compounds` collection
  
-### C - Training: Linear Regression experiment
+### C - Training: Linear Regression experiment (~ 0.99 R^2 and 0.89 RMSE)
 1. Split train, validation and test set
 2. Use `molecular_weight as feature` and `num_atoms as target`
 4. Train simple linear regression model using scikit-learn
